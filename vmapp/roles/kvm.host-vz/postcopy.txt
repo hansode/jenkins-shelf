@@ -1,0 +1,2 @@
+guestroot/var/lib/jenkins/slave.jar /var/lib/jenkins/slave.jar mode=644 uid=jenkins gid=jenkins
+guestroot/home/kemukins/vzctl.sh    /home/kemukins/vzctl.sh    mode=755 uid=kemukins gid=kemukins
