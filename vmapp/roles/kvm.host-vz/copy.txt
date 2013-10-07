@@ -1,3 +1,2 @@
-guestroot/tmp/edit-grub4vz.sh /tmp/edit-grub4vz.sh mode=755
 guestroot/etc/sysconfig/iptables /etc/sysconfig/iptables mode=644
 guestroot/etc/udev/makedev.d/50-udev.nodes /etc/udev/makedev.d/50-udev.nodes mode=644
