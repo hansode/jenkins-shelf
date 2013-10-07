@@ -1,3 +1,6 @@
 [submodule "vmapp/vmbuilder"]
 	path = vmapp/vmbuilder
 	url = https://github.com/hansode/vmbuilder.git
+[submodule "vmapp/xexecscript.d/vendor/buildbook-rhel6"]
+	path = vmapp/xexecscript.d/vendor/buildbook-rhel6
+	url = https://github.com/hansode/buildbook-rhel6.git
