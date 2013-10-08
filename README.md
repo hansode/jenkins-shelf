@@ -1,16 +1,21 @@
 Buildcat
 ========
 
-[Jenkins](http://jenkins-ci.org/http://jenkins-ci.org/) based build cluster building tools with [vmbuilder](https://github.com/hansode/vmbuilder).
+[Jenkins](http://jenkins-ci.org/http://jenkins-ci.org/) based build cluster building tools with [vmbuilder](https://github.com/hansode/vmbuilder) and [buildbook-rhel6](https://github.com/hansode/buildbook-rhel6).
 
-setup
+Requirements
+------------
+
++ RHEL/CentOS/Scientific
+
+Setup
 -----
 
 ```bash
 $ make
 ```
 
-build targets
+Build targets
 -------------
 
 + Cluster-host
