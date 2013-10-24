@@ -1,4 +1,4 @@
-VMS=kvm.host-vz kvm.kemukins vz.kemukins
+VMS=kvm.host-vz kvm.host-vbox kvm.kemukins vz.kemukins
 
 all:
 
@@ -11,6 +11,9 @@ gen-script:
 	done
 
 kvm.host-vz:
+	(cd $@ && time ../../vendor/vmbuilder/kvm/rhel/6/vmbuilder.sh --config-path ./vmbuilder.conf)
+
+kvm.host-vbox:
 	(cd $@ && time ../../vendor/vmbuilder/kvm/rhel/6/vmbuilder.sh --config-path ./vmbuilder.conf)
 
 kvm.kemukins:
