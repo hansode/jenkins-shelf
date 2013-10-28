@@ -1,4 +1,4 @@
-VMS=kvm.host-vz kvm.host-vbox kvm.kemukins vz.kemukins
+VMS=kvm.host-vz kvm.host-vbox kvm.kemukins vz.kemukins kvm.centos6
 
 all:
 
@@ -23,5 +23,8 @@ vz.kemukins:
 	(cd $@ && time ../../vendor/vmbuilder/kvm/rhel/6/vmbuilder.sh --config-path ./vmbuilder.conf)
 	(cd $@/rootfs && sudo tar zcvpf ../$@.`arch`.tar.gz .)
 	(cd $@ && sudo rm -rf rootfs)
+
+kvm.centos6:
+	(cd $@ && time ../../vendor/vmbuilder/kvm/rhel/6/vmbuilder.sh --config-path ./vmbuilder.conf)
 
 .PHONY: $(VMS)
