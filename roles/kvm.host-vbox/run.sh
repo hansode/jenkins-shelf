@@ -3,9 +3,9 @@
 #
 name=kemukins
 cpu_type=host
-brname=vboxbr0
-mem_size=1024
-cpu_num=1
+brname=cibuildbr0
+mem_size=$((3 * 1024))
+cpu_num=3
 vnc_addr=127.0.0.1
 vnc_port=1001
 monitor_addr=127.0.0.1
