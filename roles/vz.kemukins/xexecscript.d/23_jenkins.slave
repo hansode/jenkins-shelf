@@ -1,1 +1,1 @@
-../../../buildbooks/jenkins.slave
+../../../vendor/buildbook-rhel6/jenkins.slave

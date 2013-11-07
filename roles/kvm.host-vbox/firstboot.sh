@@ -1,1 +1,1 @@
-../../buildbooks/virtualbox/firstboot.sh
+../../vendor/buildbook-rhel6/virtualbox/firstboot.sh
