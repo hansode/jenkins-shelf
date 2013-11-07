@@ -1,5 +1,5 @@
-Buildcat
-========
+Jenkins-Shelf
+=============
 
 [Jenkins](http://jenkins-ci.org/http://jenkins-ci.org/) based build cluster building tools with [vmbuilder](https://github.com/hansode/vmbuilder) and [buildbook-rhel6](https://github.com/hansode/buildbook-rhel6).
 
