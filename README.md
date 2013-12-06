@@ -7,11 +7,22 @@ Requirements
 ------------
 
 + RHEL/CentOS/Scientific
++ [KVM](http://www.linux-kvm.org/page/Main_Page)
++ [OpenVZ](http://openvz.org/Main_Page)
 
-Setup
------
+Getting Started
+---------------
 
-```bash
+Setup submodules.
+
+```
+$ make setup
+```
+
+Build VM image for OpenVZ box.
+
+```
+$ cd roles/kvm.host-vz
 $ make
 ```
 
@@ -20,6 +31,12 @@ Build targets
 
 + Cluster-host
 + Cluster-node
+
+Links
+-----
+
++ [buidbook-rhel6](https://github.com/hansode/buildbook-rhel6)
++ [vmbuider](https://github.com/hansode/vmbuilder)
 
 License
 -------
